@@ -15,12 +15,11 @@ class LandingPad < Sinatra::Base
     $admin_acct_passwd = ENV['ADMIN_PASSWORD']
 
     # Page settings - used to configure your landing page
-    $page_title = 'LandingPad.rb | Just add water landing pages'
-    $app_title = 'LandingPad.rb'
-    $app_summary = 'Get a page up and running in minutes and 
-                    start collecting contacts immediately!'
+    $page_title = 'Soigne Systems'
+    $app_title = 'Soigne Systems'
+    $app_summary = 'Thanks for your interest in Soigne Systems'
     #your google analyics tracking key, if applicable
-    $google_analytics_key = 'UA-XXXXXX-X'
+    $google_analytics_key = 'UA-6320419-2'
 
     $bg_color = '#2B2F3D'
     $app_title_color = '#FFFFFF'
